@@ -1,0 +1,72 @@
+
+
+.error-msg{
+  color: red;
+  font-size: 20px
+}
+.success-msg{
+  color: green;
+  font-size: 20px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 302px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  height: 320px;
+  width: 350px;
+  margin-left: 10px;
+}
+.card1 {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 302px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  height: 450px;
+  width: 250px;
+  margin-left: 10px;
+}
+.card-title{
+  color:#fff;
+  text-align: center;
+  text-transform: capitalize;
+  
+}
+.card-text{
+  color:#fff;
+  text-align: center;
+  
+
+}
+.qty{
+  color:rgb(252, 247, 248);
+  text-align: center;
+  padding-top: 10px;
+}
+.cart-price{
+  text-align: center;
+}
+.button{
+  background-color: rgb(190, 15, 15);
+  margin-left: 100px;
+  color: rgb(35, 61, 148);
+ margin-top: 10px;
+ border-radius: 10px;
+}
+.btnn{
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}

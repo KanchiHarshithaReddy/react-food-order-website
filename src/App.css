@@ -1,0 +1,67 @@
+.header{
+    /* position: sticky; */
+    top:0;
+    min-width: 80px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    margin-top: 10px;
+    
+}
+.logo{
+text-decoration: none;
+text-transform: uppercase;
+color: aliceblue;
+padding-left: 40px;
+
+}
+.header-links{
+    display: flex;
+}
+.header-links ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.header-links ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 15px;
+}
+.header-links ul li a:hover{
+    color: rgb(43, 226, 156);
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  display:flex;
+padding-top: 10px;
+}
+.action-btns{
+margin-right: 20px;
+margin-left: 40px;
+}
+.action-btnss{
+  margin-left: 20px;
+}
+.buttton{
+  background-color: rgb(246, 248, 248);
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 95px;
+  margin-top: 10px;
+}
+.card1{
+  height: 150px;
+  text-align: center;
+  width: 200px;
+}
+.card1 button{
+  margin-right: 80px;
+}
